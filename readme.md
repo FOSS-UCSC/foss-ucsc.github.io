@@ -63,6 +63,7 @@ confer/
     │   ├── style.scss
     ├── about.html
     ├── blog.html
+    |──sampleBlogPost.html
     ├── contact.html
     ├── index.html [Home Page]
     ├── schedule.html

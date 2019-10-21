@@ -1,2 +1,18 @@
 :: Version 1.0.0 (March 14, 2019)
 - Initial Release
+
+:: Version x.x (October 21,2019)
+- Changes in Typos:
+  
+  Index.html:
+    timetable->time-table
+    view all Speaker->view all Speakers
+    ceo->CEO
+    Dowload schedule (Pdf)->Download schedule (PDF)
+    Capdm->CAPDM
+
+  Blog.html:
+    Changed event name from tedx->TEDx
+    Changed date to actual date for Tedx Moscow conference
+    Changed descriptions for Tedx Moscow Conference by adding actual one in website.
+  

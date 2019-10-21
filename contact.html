@@ -126,7 +126,7 @@
                             <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>
                         </div>
                         <div class="contact_form">
-                            <form action="mail.php" method="post">
+                            <form action="#" method="post" id="conForm">
                                 <div class="contact_input_area">
                                     <div class="row">
                                         <!-- Form Group -->
@@ -161,7 +161,7 @@
                                         </div>
                                         <!-- Button -->
                                         <div class="col-12">
-                                            <button type="submit" class="btn confer-btn">Send Message <i class="zmdi zmdi-long-arrow-right"></i></button>
+                                            <button type="button" onclick="valid();" class="btn confer-btn">Send Message <i class="zmdi zmdi-long-arrow-right"></i></button>
                                         </div>
                                     </div>
                                 </div>
@@ -363,7 +363,58 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/confer.bundle.js"></script>
     <!-- Active -->
     <script src="js/default-assets/active.js"></script>
-
+    <script>
+    function valid(){
+    var x=0;
+    if(document.getElementById("name").value=="")
+    {
+        document.getElementById("name").style.borderColor="red";
+        x=1;
+    }
+    else
+    {
+        document.getElementById("name").style.borderColor="#d4d4d4";
+    }
+    if(document.getElementById("name-2").value=="")
+    {
+        document.getElementById("name-2").style.borderColor="red";
+        x=1;
+    }
+    else
+    {
+        document.getElementById("name-2").style.borderColor="#d4d4d4";
+    }
+    if(document.getElementById("email").value=="" || $("#email").val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null)
+    {
+        document.getElementById("email").style.borderColor="red";
+        x=1;
+    }
+    else
+    {
+        document.getElementById("email").style.borderColor="#d4d4d4";
+    }
+    if(document.getElementById("subject").value=="")
+    {
+        document.getElementById("subject").style.borderColor="red";
+        x=1;
+    }
+    else
+    {
+        document.getElementById("subject").style.borderColor="#d4d4d4";
+    }
+    if(document.getElementById("message").value=="")
+    {
+        document.getElementById("message").style.borderColor="red";
+        x=1;
+    }
+    else
+    {
+        document.getElementById("message").style.borderColor="#d4d4d4";
+    }
+    if(x==0)
+        $("#conForm").submit();
+    }
+    </script>
 </body>
 
 </html>

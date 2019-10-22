@@ -7,34 +7,34 @@
 
     .about-content-text {
         h6 {
-            font-size: 14px;
+            font-size: 15px;
             font-weight: 500;
             color: $primary;
             text-transform: uppercase;
-            letter-spacing: 1px;
-            border-bottom: 2px solid $border;
-            margin-bottom: 20px;
-            padding-bottom: 5px;
+            letter-spacing: 2px;
+            border-bottom: 1px solid $border;
+            margin-bottom: 18px;
+            padding-bottom: 6px;
             display: inline-block;
         }
 
         h3 {
-            font-size: 40px;
+            font-size: 39px;
             color: $white;
             text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 20px;
+            letter-spacing: 2px;
+            margin-bottom: 19px;
 
             @media #{$breakpoint-lg} {
-                font-size: 32px;
+                font-size: 31px;
             }
 
             @media #{$breakpoint-md} {
-                font-size: 24px;
+                font-size: 25px;
             }
 
             @media #{$breakpoint-xs} {
-                font-size: 22px;
+                font-size: 23px;
             }
         }
 
@@ -88,11 +88,11 @@
 
     h5 {
         @include transition-duration(1000ms);
-        font-size: 22px;
-        color: $text-3;
-        margin-top: 25px;
+        font-size: 23px;
+        color: $text-4;
+        margin-top: 24px;
         position: relative;
-        z-index: 2;
+        z-index: 3;
     }
 
     p {

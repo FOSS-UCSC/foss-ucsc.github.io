@@ -61,8 +61,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
-  color: #111343;
+  font-family: "Calibri", sans-serif;
+  color: #101133;
   line-height: 1.25;
   font-weight: 600; }
 
@@ -70,7 +70,7 @@ a,
 a:active,
 a:focus,
 a:hover {
-  color: #111343;
+  color: #101133;
   text-decoration: none;
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
@@ -172,7 +172,7 @@ ul {
 .mfp-iframe-holder .mfp-close {
   position: fixed;
   z-index: 100;
-  color: #ffffff;
+  color: #dad1d1;
   right: 20px;
   text-align: center;
   padding-right: 0;
@@ -220,13 +220,13 @@ input:required {
   border-right-color: transparent; }
 
 .mfp-arrow-left::before {
-  border-right-color: #ffffff; }
+  border-right-color: #dad1d1; }
 
 .mfp-arrow-right::after {
   border-left-color: transparent; }
 
 .mfp-arrow-right::before {
-  border-left-color: #ffffff; }
+  border-left-color: #dad1d1; }
 
 /* :: 02.0 Spacing Area CSS */
 .mt-15 {
@@ -380,7 +380,7 @@ input:required {
   border-radius: 50%;
   -webkit-animation: loader linear 2s infinite;
   animation: loader linear 2s infinite;
-  border-top: 2px solid #ffffff;
+  border-top: 2px solid #dad1d1;
   border-left: 2px solid transparent;
   border-right: 2px solid transparent;
   border-bottom: 2px solid transparent; }
@@ -409,7 +409,7 @@ input:required {
   z-index: 1;
   margin-bottom: 60px; }
   .section-heading p {
-    color: #ffffff;
+    color: #dad1d1;
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-bottom: 0;
@@ -417,7 +417,7 @@ input:required {
     font-weight: 400; }
   .section-heading h4 {
     font-size: 38px;
-    color: #ffffff;
+    color: #dad1d1;
     margin-bottom: 0;
     text-transform: uppercase;
     letter-spacing: 1px; }
@@ -441,7 +441,7 @@ input:required {
     font-weight: 400; }
   .section-heading-2 h4 {
     font-size: 38px;
-    color: #ffffff;
+    color: #dad1d1;
     margin-bottom: 0;
     text-transform: uppercase;
     letter-spacing: 1px; }
@@ -465,7 +465,7 @@ input:required {
     font-weight: 400; }
   .section-heading-3 h4 {
     font-size: 38px;
-    color: #111343;
+    color: #1011333;
     margin-bottom: 0;
     text-transform: uppercase;
     letter-spacing: 1px; }
@@ -486,7 +486,7 @@ input:required {
   height: 40px;
   bottom: 40px;
   background-color: #df42b1;
-  color: #ffffff;
+  color: #dad1d1;
   text-align: center;
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
@@ -501,7 +501,7 @@ input:required {
       bottom: 20px; } }
   #scrollUp:focus, #scrollUp:hover {
     background-color: #000000;
-    color: #ffffff; }
+    color: #dad1d1; }
 
 /* :: 6.0 Buttons Area CSS */
 .btn:focus {
@@ -520,7 +520,7 @@ input:required {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: #ffffff;
+  color: #dad1d1;
   border-radius: 23px;
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
@@ -544,8 +544,8 @@ input:required {
     z-index: -2; }
   .confer-btn:focus, .confer-btn:hover {
     font-weight: 500;
-    background-color: #ffffff;
-    color: #111343 !important;
+    background-color: #dad1d1;
+    color: #1011333 !important;
     -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
     box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15); }
     .confer-btn:focus i, .confer-btn:hover i {
@@ -576,7 +576,7 @@ input:required {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: #ffffff;
+  color: #dad1d1;
   border-radius: 23px;
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
@@ -584,21 +584,21 @@ input:required {
   .confer-btn-2 i {
     margin-left: 4px; }
   .confer-btn-2.btn-2 {
-    color: #111343; }
+    color: #1011333; }
   .confer-btn-2:focus, .confer-btn-2:hover {
     font-weight: 500;
     -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
     box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
     background-color: #df42b1;
-    color: #ffffff; }
+    color: #dad1d1; }
 
 .confer-btn-white {
   position: relative;
   z-index: 1;
   height: 46px;
   padding: 0 25px;
-  border: 2px solid #ffffff;
-  color: #ffffff;
+  border: 2px solid #dad1d1;
+  color: #dad1d1;
   border-radius: 23px;
   font-size: 14px;
   text-transform: uppercase;
@@ -613,7 +613,7 @@ input:required {
   .confer-btn-white:hover, .confer-btn-white:focus {
     background-color: #df42b1;
     border-color: #df42b1;
-    color: #ffffff; }
+    color: #dad1d1; }
 
 .confer-btn-white-2 {
   position: relative;
@@ -621,7 +621,7 @@ input:required {
   height: 46px;
   padding: 0 25px;
   border: 2px solid rgba(255, 255, 255, 0.2);
-  color: #ffffff;
+  color: #dad1d1;
   border-radius: 23px;
   font-size: 14px;
   text-transform: uppercase;
@@ -636,12 +636,12 @@ input:required {
   .confer-btn-white-2:hover, .confer-btn-white-2:focus {
     background-color: #df42b1;
     border-color: #df42b1;
-    color: #ffffff; }
+    color: #dad1d1; }
 
 .confer-gb-btn {
   position: relative;
   z-index: 1;
-  color: #ffffff;
+  color: #dad1d1;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -685,7 +685,7 @@ input:required {
     content: '';
     z-index: -1; }
   .confer-gb-btn:hover, .confer-gb-btn:focus {
-    color: #ffffff; }
+    color: #dad1d1; }
     .confer-gb-btn:hover::after, .confer-gb-btn:focus::after {
       opacity: 0; }
 
@@ -706,7 +706,7 @@ input:required {
     .classy-nav-container .classy-navbar .classynav ul li a {
       font-size: 16px;
       text-transform: uppercase;
-      color: #ffffff;
+      color: #dad1d1;
       font-weight: 500;
       padding: 0 20px; }
       .classy-nav-container .classy-navbar .classynav ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li a:focus {
@@ -717,13 +717,13 @@ input:required {
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .classy-nav-container .classy-navbar .classynav ul li a {
           font-size: 14px;
-          color: #111343; }
+          color: #1011333; }
           .classy-nav-container .classy-navbar .classynav ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li a:focus {
             color: #df42b1; } }
       @media only screen and (max-width: 767px) {
         .classy-nav-container .classy-navbar .classynav ul li a {
           font-size: 14px;
-          color: #111343; }
+          color: #1011333; }
           .classy-nav-container .classy-navbar .classynav ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li a:focus {
             color: #df42b1; } }
     .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a {
@@ -732,7 +732,7 @@ input:required {
       height: 42px;
       line-height: 42px;
       padding: 0 30px;
-      color: #111343; }
+      color: #1011333; }
       .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a:hover {
         color: #df42b1; }
     .classy-nav-container .classy-navbar .classynav ul li.active a {
@@ -754,7 +754,7 @@ input:required {
   width: 100%; }
 
 .classy-navbar-toggler .navbarToggler span {
-  background-color: #ffffff; }
+  background-color: #dad1d1; }
 
 .header-area {
   position: fixed;
@@ -783,8 +783,8 @@ input:required {
     left: 50%;
     bottom: 40px;
     margin-left: -13px;
-    -webkit-box-shadow: inset 0 0 0 2px #ffffff;
-    box-shadow: inset 0 0 0 2px #ffffff;
+    -webkit-box-shadow: inset 0 0 0 2px #dad1d1;
+    box-shadow: inset 0 0 0 2px #dad1d1;
     border-radius: 25px;
     opacity: 0.75;
     cursor: pointer; }
@@ -794,7 +794,7 @@ input:required {
       content: '';
       width: 6px;
       height: 6px;
-      background: #ffffff;
+      background: #dad1d1;
       left: 50%;
       -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
@@ -899,7 +899,7 @@ input:required {
       text-transform: uppercase;
       display: block;
       margin-bottom: 10px;
-      color: #ffffff; }
+      color: #dad1d1; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .single-welcome-slide .welcome-text h2 {
           font-size: 60px; } }
@@ -933,7 +933,7 @@ input:required {
           .single-welcome-slide .welcome-text h2::after {
             top: 20px; } }
     .single-welcome-slide .welcome-text h6 {
-      color: #ffffff;
+      color: #dad1d1;
       margin-bottom: 50px;
       text-transform: uppercase;
       display: inline-block;
@@ -944,7 +944,7 @@ input:required {
         .single-welcome-slide .welcome-text h6 {
           font-size: 14px; } }
     .single-welcome-slide .welcome-text .hero-mail-contact {
-      color: #ffffff;
+      color: #dad1d1;
       font-style: italic;
       text-decoration: underline; }
       .single-welcome-slide .welcome-text .hero-mail-contact:hover, .single-welcome-slide .welcome-text .hero-mail-contact:focus {
@@ -954,7 +954,7 @@ input:required {
     z-index: 1; }
     .single-welcome-slide .welcome-text-two h5 {
       font-size: 40px;
-      color: #ffffff;
+      color: #dad1d1;
       text-transform: uppercase;
       letter-spacing: 0.5px;
       font-weight: 700; }
@@ -963,7 +963,7 @@ input:required {
           font-size: 20px; } }
     .single-welcome-slide .welcome-text-two h2 {
       font-size: 90px;
-      color: #ffffff;
+      color: #dad1d1;
       letter-spacing: 0.5px;
       text-transform: uppercase;
       font-weight: 700; }
@@ -981,7 +981,7 @@ input:required {
       z-index: 1;
       margin-bottom: 50px; }
       .single-welcome-slide .welcome-text-two .event-meta a {
-        color: #ffffff;
+        color: #dad1d1;
         margin-right: 40px; }
         @media only screen and (max-width: 767px) {
           .single-welcome-slide .welcome-text-two .event-meta a {
@@ -994,7 +994,7 @@ input:required {
 .footer-area {
   position: relative;
   z-index: 1;
-  background-color: #111343; }
+  background-color: #1011333; }
   .footer-area .row {
     margin-left: -30px;
     margin-right: -30px; }
@@ -1015,7 +1015,7 @@ input:required {
   z-index: 1; }
   .main-footer-area .single-footer-widget .widget-title {
     font-size: 20px;
-    color: #ffffff;
+    color: #dad1d1;
     margin-bottom: 20px; }
   .main-footer-area .single-footer-widget p {
     color: #9293bc;
@@ -1033,7 +1033,7 @@ input:required {
     display: inline-block;
     text-align: center;
     line-height: 32px;
-    color: #ffffff;
+    color: #dad1d1;
     font-size: 15px;
     margin-right: 8px;
     -webkit-transition-duration: 500ms;
@@ -1061,7 +1061,7 @@ input:required {
       -o-transition-duration: 500ms;
       transition-duration: 500ms; }
       .main-footer-area .single-footer-widget .footer-nav li a:hover, .main-footer-area .single-footer-widget .footer-nav li a:focus {
-        color: #ffffff; }
+        color: #dad1d1; }
     .main-footer-area .single-footer-widget .footer-nav li:last-child a {
       margin-bottom: 0; }
   .main-footer-area .single-footer-widget .footer-gallery .row {
@@ -1116,7 +1116,7 @@ input:required {
       .copywrite-content .copywrite-text p {
         font-size: 12px; } }
     .copywrite-content .copywrite-text p a {
-      color: #ffffff;
+      color: #dad1d1;
       font-weight: 400; }
       .copywrite-content .copywrite-text p a:hover, .copywrite-content .copywrite-text p a:focus {
         color: #df42b1; }
@@ -1154,7 +1154,7 @@ input:required {
             margin-right: 2px;
             color: #505add; }
           .copywrite-content .footer-menu .nav li a:hover, .copywrite-content .footer-menu .nav li a:focus {
-            color: #ffffff; }
+            color: #dad1d1; }
 
 /* :: 10.0 About Area CSS */
 .about-us-countdown-area {
@@ -1173,7 +1173,7 @@ input:required {
     display: inline-block; }
   .about-us-countdown-area .about-content-text h3 {
     font-size: 40px;
-    color: #ffffff;
+    color: #dad1d1;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 20px; }
@@ -1187,7 +1187,7 @@ input:required {
       .about-us-countdown-area .about-content-text h3 {
         font-size: 22px; } }
   .about-us-countdown-area .about-content-text p {
-    color: #ffffff; }
+    color: #dad1d1; }
 
 /* :: About Single Page CSS */
 .single-we-offer-content {
@@ -1235,7 +1235,7 @@ input:required {
     -o-transition-duration: 1000ms;
     transition-duration: 1000ms;
     font-size: 22px;
-    color: #111343;
+    color: #1011333;
     margin-top: 25px;
     position: relative;
     z-index: 2; }
@@ -1250,7 +1250,7 @@ input:required {
   .single-we-offer-content:hover h5,
   .single-we-offer-content:hover p, .single-we-offer-content:focus h5,
   .single-we-offer-content:focus p {
-    color: #ffffff; }
+    color: #dad1d1; }
   .single-we-offer-content:hover .offer-icon::after, .single-we-offer-content:focus .offer-icon::after {
     width: 800%;
     height: 800%; }
@@ -1300,7 +1300,7 @@ input:required {
       letter-spacing: 1px; }
     .about-us-countdown-area .countdown-up-area .countdown-content-text h4 {
       font-size: 20px;
-      color: #ffffff;
+      color: #dad1d1;
       letter-spacing: 1px;
       text-transform: uppercase;
       margin-bottom: 0; }
@@ -1320,7 +1320,7 @@ input:required {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
-      color: #ffffff; }
+      color: #dad1d1; }
       .about-us-countdown-area .countdown-up-area .countdown-timer #clock div {
         font-size: 62px;
         font-weight: 600;
@@ -1414,7 +1414,7 @@ input:required {
     .single-speaker-area .social-info a {
       display: block;
       font-size: 18px;
-      color: #ffffff;
+      color: #dad1d1;
       margin-bottom: 5px; }
       .single-speaker-area .social-info a:last-child {
         margin-bottom: 0; }
@@ -1426,7 +1426,7 @@ input:required {
     .single-speaker-area .speaker-info h5 {
       font-size: 20px;
       font-weight: 500;
-      color: #ffffff;
+      color: #dad1d1;
       letter-spacing: 1px;
       margin-bottom: 10px; }
     .single-speaker-area .speaker-info p {
@@ -1446,13 +1446,15 @@ input:required {
     .breadcrumb-area {
       height: 300px; } }
   .breadcrumb-area .page-title {
-    color: #ffffff;
-    font-size: 45px;
+    color: #dad1d1;
+    font-size: 65px;
     text-transform: uppercase;
-    font-weight: 700; }
+    font-weight: 600; }
     @media only screen and (max-width: 767px) {
       .breadcrumb-area .page-title {
-        font-size: 24px; } }
+        font-size: 35px;
+        padding-left: 10px;
+      } }
 
 .breadcrumb-content {
   position: relative;
@@ -1463,18 +1465,18 @@ input:required {
     background-color: transparent;
     margin-bottom: 0; }
     .breadcrumb-content .breadcrumb .breadcrumb-item {
-      color: #ffffff;
+      color: #dad1d1;
       font-weight: 400;
       font-size: 18px; }
       .breadcrumb-content .breadcrumb .breadcrumb-item a {
         font-size: 16px;
-        color: #ffffff;
+        color: #dad1d1;
         font-weight: 400; }
         .breadcrumb-content .breadcrumb .breadcrumb-item a:hover, .breadcrumb-content .breadcrumb .breadcrumb-item a:focus {
           color: #df42b1; }
     .breadcrumb-content .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
       content: '\f105';
-      color: #ffffff;
+      color: #dad1d1;
       font-family: "FontAwesome"; }
 
 .breadcrumb-area.blog {
@@ -1484,7 +1486,7 @@ input:required {
     border-radius: 2px;
     font-size: 12px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #dad1d1;
     background-color: #df42b1;
     font-weight: 500;
     margin-bottom: 15px; }
@@ -1506,7 +1508,7 @@ input:required {
       position: relative;
       z-index: 1;
       font-size: 16px;
-      color: #ffffff;
+      color: #dad1d1;
       font-weight: 500;
       margin-right: 21px; }
       @media only screen and (max-width: 767px) {
@@ -1523,7 +1525,7 @@ input:required {
       .breadcrumb-area.blog .breadcrumb-content .post-meta a:hover, .breadcrumb-area.blog .breadcrumb-content .post-meta a:focus {
         color: #df42b1; }
         .breadcrumb-area.blog .breadcrumb-content .post-meta a:hover::after, .breadcrumb-area.blog .breadcrumb-content .post-meta a:focus::after {
-          color: #ffffff; }
+          color: #dad1d1; }
 
 /* :: 14.0 Blog Area CSS */
 .our-blog-area .row {
@@ -1562,13 +1564,13 @@ input:required {
       -o-transition-duration: 800ms;
       transition-duration: 800ms; }
   .single-blog-area .single-blog-text {
-    background-color: #ffffff;
+    background-color: #dad1d1;
     padding: 30px 30px 50px 30px;
     border-radius: 0 0 10px 10px; }
     .single-blog-area .single-blog-text .blog-title {
       font-size: 20px;
       font-weight: 600;
-      color: #111343;
+      color: #1011333;
       margin-bottom: 5px;
       display: inline-block;
       -webkit-transition-duration: 500ms;
@@ -1607,7 +1609,7 @@ input:required {
     -ms-transform: scale(1.2);
     transform: scale(1.2); }
   .single-blog-area.style-2 {
-    background-color: #ffffff;
+    background-color: #dad1d1;
     box-shadow: 0px 8px 27px 0px rgba(90, 111, 120, 0.15); }
 
 .blog-btn {
@@ -1624,10 +1626,10 @@ input:required {
     background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
     background-image: -ms-linear-gradient(120deg, #505add 0%, #df42b1 100%);
     text-align: center;
-    border: 2px solid #ffffff;
+    border: 2px solid #dad1d1;
     border-radius: 50%;
     line-height: 47px;
-    color: #ffffff;
+    color: #dad1d1;
     font-size: 25px;
     display: inline-block; }
 
@@ -1642,7 +1644,7 @@ input:required {
     .post-details-content .post-blog-thumbnail img {
       border-radius: 10px; }
   .post-details-content .post-title {
-    color: #111343;
+    color: #1011333;
     font-size: 25px; }
   .post-details-content .post-meta {
     position: relative;
@@ -1668,7 +1670,7 @@ input:required {
     font-style: italic;
     font-weight: 400;
     line-height: 1.6;
-    color: #111343;
+    color: #1011333;
     border-left: 3px solid #df42b1;
     padding-left: 10px;
     margin-bottom: 0; }
@@ -1964,7 +1966,7 @@ input:required {
     z-index: 1;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    color: #111343; }
+    color: #1011333; }
   .single-widget-area .search-widget {
     position: relative;
     z-index: 1; }
@@ -2068,7 +2070,7 @@ input:required {
     .single-widget-area .post-author-widget .post-author-content h5 {
       font-size: 18px;
       margin-bottom: 5px;
-      color: #111343; }
+      color: #1011333; }
     .single-widget-area .post-author-widget .post-author-content span {
       font-size: 14px;
       margin-bottom: 15px;
@@ -2089,8 +2091,8 @@ input:required {
       margin: 0 5px; }
       .single-widget-area .post-author-widget .author-social-info a:hover, .single-widget-area .post-author-widget .author-social-info a:focus {
         background-color: #505add;
-        border-color: #505add;
-        color: #ffffff; }
+        border-color: #424ab1;
+        color: #dad1d1; }
 
 .single-recent-post-area {
   position: relative;
@@ -2110,13 +2112,13 @@ input:required {
       border-radius: 5px; }
   .single-recent-post-area .post-content .post-title {
     display: block;
-    color: #111343;
+    color: #1011333;
     font-size: 16px;
     margin-bottom: 5px; }
   .single-recent-post-area .post-content .post-date {
     display: block;
     font-size: 14px;
-    color: #9293bc; }
+    color: #4e4e5c; }
 
 /* 16.0 Client Area CSS */
 .our-client-area {
@@ -2135,7 +2137,7 @@ input:required {
     z-index: 10;
     text-align: center;
     line-height: 50px;
-    color: #ffffff;
+    color: #dad1d1;
     font-size: 40px;
     opacity: 0.5; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2161,7 +2163,7 @@ input:required {
         right: -15px; } }
   .our-client-area.about-page .owl-prev,
   .our-client-area.about-page .owl-next {
-    color: #5f608e;
+    color: #5e5e6d;
     opacity: 1; }
     .our-client-area.about-page .owl-prev:hover, .our-client-area.about-page .owl-prev:active,
     .our-client-area.about-page .owl-next:hover,
@@ -2182,7 +2184,7 @@ input:required {
     position: relative;
     z-index: 1; }
     .single-client-content .single-client-text p {
-      color: #ffffff;
+      color: #dad1d1;
       margin-bottom: 20px;
       font-weight: 300; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2199,7 +2201,7 @@ input:required {
     .single-client-content .single-client-text .single-client-thumb-info .client-info {
       margin-left: 15px; }
       .single-client-content .single-client-text .single-client-thumb-info .client-info h6 {
-        color: #ffffff;
+        color: #dad1d1;
         font-size: 18px;
         margin-bottom: 0; }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2223,7 +2225,7 @@ input:required {
     .single-client-content .single-client-text.about-page p {
       color: #5d5e8d; }
     .single-client-content .single-client-text.about-page .client-info h6 {
-      color: #111343; }
+      color: #1011333; }
   .single-client-content .client-icon {
     background: #df42b1;
     background: -moz-linear-gradient(120deg, #df42b1 0%, #505add 100%);
@@ -2270,10 +2272,16 @@ input:required {
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .our-schedule-area .schedule-tab .nav-tabs .nav-item .nav-link {
             font-size: 14px; } }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .our-schedule-area .schedule-tab .nav-tabs .nav-item .nav-link:hover {
+            background: #9293bc; } }
         @media only screen and (max-width: 767px) {
           .our-schedule-area .schedule-tab .nav-tabs .nav-item .nav-link {
             font-size: 10px;
             padding: 10px; } }
+          .our-schedule-area .schedule-tab .nav-tabs .nav-item .nav-link:hover {
+          background: #dbdcf1;
+          } }
         @media only screen and (min-width: 480px) and (max-width: 767px) {
           .our-schedule-area .schedule-tab .nav-tabs .nav-item .nav-link {
             font-size: 12px;
@@ -2294,7 +2302,7 @@ input:required {
               font-size: 10px; } }
         .our-schedule-area .schedule-tab .nav-tabs .nav-item .nav-link.active {
           background-color: #5d5e8d;
-          color: #ffffff; }
+          color: #dad1d1; }
       .our-schedule-area .schedule-tab .nav-tabs .nav-item:nth-child(1) .nav-link {
         border-radius: 10px 0 0 10px; }
       .our-schedule-area .schedule-tab .nav-tabs .nav-item:last-child .nav-link {
@@ -2343,7 +2351,7 @@ input:required {
       margin-left: 30px; }
       .single-schedule-area .single-schedule-tumb-info .single-schedule-info h6 {
         font-size: 20px;
-        color: #ffffff;
+        color: #dad1d1;
         font-weight: 600; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .single-schedule-area .single-schedule-tumb-info .single-schedule-info h6 {
@@ -2367,7 +2375,7 @@ input:required {
           .single-schedule-area .single-schedule-tumb-info .single-schedule-info p {
             font-size: 12px; } }
         .single-schedule-area .single-schedule-tumb-info .single-schedule-info p span {
-          color: #ffffff; }
+          color: #dad1d1; }
   .single-schedule-area .schedule-time-place {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 42%;
@@ -2391,7 +2399,7 @@ input:required {
         width: 100%;
         padding: 0 0 30px 0; } }
     .single-schedule-area .schedule-time-place p {
-      color: #ffffff;
+      color: #dad1d1;
       margin-bottom: 0;
       letter-spacing: 1px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2431,19 +2439,19 @@ input:required {
   .single-schedule-area.single-page {
     -webkit-box-shadow: 0px 8px 27px 0px rgba(90, 111, 120, 0.15);
     box-shadow: 0px 8px 27px 0px rgba(90, 111, 120, 0.15);
-    border-color: #ffffff;
+    border-color: #dad1d1;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms; }
     .single-schedule-area.single-page .single-schedule-info h6 {
-      color: #111343; }
+      color: #1011333; }
     .single-schedule-area.single-page .single-schedule-info p {
       color: #9293bc;
       margin-bottom: 0; }
       .single-schedule-area.single-page .single-schedule-info p span {
-        color: #111343; }
+        color: #1011333; }
     .single-schedule-area.single-page .schedule-time-place p {
-      color: #111343; }
+      color: #1011333; }
     .single-schedule-area.single-page:hover, .single-schedule-area.single-page:focus {
       border-color: #df42b1; }
 
@@ -2483,7 +2491,7 @@ input:required {
           padding-right: 15px; } }
 
 .single-ticket-pricing-table {
-  background-color: #ffffff;
+  background-color: #dad1d1;
   padding: 0 40px 40px 40px;
   border-radius: 10px;
   -webkit-transition-duration: 500ms;
@@ -2504,7 +2512,7 @@ input:required {
     display: inline-block;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #dad1d1;
     border-radius: 0 0 5px 5px;
     margin-bottom: 25px;
     line-height: 1; }
@@ -2515,7 +2523,7 @@ input:required {
         max-height: 60px; } }
   .single-ticket-pricing-table .ticket-price {
     font-size: 60px;
-    color: #111343;
+    color: #1011333;
     font-weight: 600;
     letter-spacing: 1px;
     line-height: 1;
@@ -2538,7 +2546,7 @@ input:required {
     .single-ticket-pricing-table .ticket-pricing-table-details p:last-child {
       margin-bottom: 0; }
   .single-ticket-pricing-table.style-2 {
-    background-color: #ffffff;
+    background-color: #dad1d1;
     box-shadow: 0px 8px 27px 0px rgba(90, 111, 120, 0.15); }
 
 /* :: 19.0 Sponsor Area CSS */
@@ -2609,7 +2617,7 @@ input:required {
       margin-bottom: 5px; }
     .contact-our-area .contact-information .single-contact-info h6 {
       font-size: 18px;
-      color: #ffffff;
+      color: #dad1d1;
       margin-bottom: 0; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .contact-our-area .contact-information .single-contact-info h6 {
@@ -2641,7 +2649,7 @@ input:required {
   .form-group .form-control:focus {
     box-shadow: none; }
   .form-group .form-control:active, .form-group .form-control:focus {
-    border-bottom-color: #ffffff; }
+    border-bottom-color: #dad1d1; }
 .form-group textarea.form-control {
   height: 80px; }
 
@@ -2664,7 +2672,7 @@ input:required {
   border-radius: 10px; }
 .contact--us-area .contact_from_area .contact-heading h4 {
   font-size: 25px;
-  color: #111343;
+  color: #1011333;
   text-transform: uppercase; }
 .contact--us-area .contact_from_area .contact-heading p {
   color: #5d5e8d;
@@ -2691,14 +2699,14 @@ input:required {
   position: relative;
   z-index: 22;
   top: -75px;
-  background-color: #ffffff;
+  background-color: #dad1d1;
   border-radius: 10px; }
   .contact--info-area .single-contact--info {
     position: relative;
     z-index: 1;
     margin-bottom: 50px; }
     .contact--info-area .single-contact--info h5 {
-      color: #111343;
+      color: #1011333;
       font-size: 16px;
       margin-bottom: 0;
       margin-top: 10px;
@@ -2717,7 +2725,7 @@ input:required {
   z-index: 1; }
   .call-to-action-content .call-to-action-heading h6 {
     font-size: 18px;
-    color: #ffffff;
+    color: #dad1d1;
     letter-spacing: 0.5px;
     text-transform: uppercase; }
   .call-to-action-content .call-to-action-heading h2 {
@@ -2725,7 +2733,7 @@ input:required {
     text-transform: capitalize;
     font-weight: 700;
     letter-spacing: 0.5px;
-    color: #ffffff;
+    color: #dad1d1;
     margin-bottom: 30px;
     display: inline-block; }
     @media only screen and (max-width: 767px) {
@@ -2738,7 +2746,7 @@ input:required {
     border-radius: 10px; }
     .call-to-action-content .event-time p {
       font-size: 18px;
-      color: #ffffff;
+      color: #dad1d1;
       margin-bottom: 3px; }
       .call-to-action-content .event-time p:last-child {
         margin-bottom: 0; }

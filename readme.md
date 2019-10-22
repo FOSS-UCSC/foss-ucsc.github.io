@@ -68,6 +68,7 @@ confer/
     ├── schedule.html
     ├── single-blog.html
     ├── speakers.html
+    |---get-ticket.html
     ├── style.css [Core Stylesheet]
     ├── style.css.map
     ├── tickets.map

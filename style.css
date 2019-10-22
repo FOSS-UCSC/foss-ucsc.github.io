@@ -1447,7 +1447,7 @@ input:required {
       height: 300px; } }
   .breadcrumb-area .page-title {
     color: #dad1d1;
-    font-size: 65px;
+    font-size: 75px;
     text-transform: uppercase;
     font-weight: 600; }
     @media only screen and (max-width: 767px) {
@@ -1492,7 +1492,7 @@ input:required {
     margin-bottom: 15px; }
     .breadcrumb-area.blog .breadcrumb-content .post-catagory:hover, .breadcrumb-area.blog .breadcrumb-content .post-catagory:focus {
       font-weight: 500;
-      background-color: #000000; }
+      background-color: #000000; color: #424ab1; }
   .breadcrumb-area.blog .breadcrumb-content .page-title {
     display: block;
     font-size: 48px;
@@ -1523,7 +1523,7 @@ input:required {
       .breadcrumb-area.blog .breadcrumb-content .post-meta a:last-child::after {
         display: none; }
       .breadcrumb-area.blog .breadcrumb-content .post-meta a:hover, .breadcrumb-area.blog .breadcrumb-content .post-meta a:focus {
-        color: #e62cae; background: #dbdcf1;}
+        color: #e71dab; background: #b0b0b8;}
         .breadcrumb-area.blog .breadcrumb-content .post-meta a:hover::after, .breadcrumb-area.blog .breadcrumb-content .post-meta a:focus::after {
           color: #dad1d1; background: #424ab1;}
 
@@ -1609,7 +1609,7 @@ input:required {
   .single-blog-area:hover .single-blog-thumb img, .single-blog-area:focus .single-blog-thumb img {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
-    transform: scale(1.2); }
+    transform: scale(1.2); background: #b0b0b8; }
   .single-blog-area.style-2 {
     background-color: #dad1d1;
     box-shadow: 0px 8px 27px 0px rgba(90, 111, 120, 0.15); }
@@ -1710,7 +1710,7 @@ input:required {
         top: 0;
         z-index: 1; }
       .post-tags-social-area .popular-tags ul li a:hover, .post-tags-social-area .popular-tags ul li a:focus {
-        color: #505add; }
+        color: #505add; background: #c63fa4;}
     .post-tags-social-area .popular-tags ul li:last-child a {
       margin-right: 0; }
       .post-tags-social-area .popular-tags ul li:last-child a::after {
@@ -1735,7 +1735,7 @@ input:required {
       .post-tags-social-area .author-social-info a:last-child {
         margin-right: 0; }
       .post-tags-social-area .author-social-info a:hover, .post-tags-social-area .author-social-info a:focus {
-        color: #505add; }
+        color: #505add; background: #b0b0b8;}
 
 .post-author-area {
   position: relative;
@@ -1829,7 +1829,7 @@ input:required {
         .pager-area .pager-single-post .post-title {
           font-size: 16px; } }
       .pager-area .pager-single-post .post-title:hover, .pager-area .pager-single-post .post-title:focus {
-        color: #df42b1; }
+        color: #df42b1; background: #b0b0b8; }
     .pager-area .pager-single-post span {
       font-size: 14px;
       display: block;
@@ -2153,7 +2153,7 @@ input:required {
     .our-client-area .owl-prev:hover, .our-client-area .owl-prev:focus,
     .our-client-area .owl-next:hover,
     .our-client-area .owl-next:focus {
-      opacity: 1; }
+      opacity: 1; border-color: #dbdcf1;}
   .our-client-area .owl-next {
     left: auto;
     right: -30px; }

@@ -30,7 +30,10 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/marked/lib/marked.js",
+              "node_modules/emoji-toolkit/lib/js/joypixels.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -121,8 +124,15 @@
               "devServerTarget": "foss-ucsc:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://foss-ucsc.github.io/"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "foss-ucsc"
 }

@@ -11,18 +11,15 @@ export class ScrollSpyDirective {
 
   constructor(private _el: ElementRef) { }
 
-  @HostListener('scroll', ['$event'])
-  onScroll(event: any) {
-    console.log("Hello");
-
+  @HostListener('window:scroll', [])
+  onScroll() {
     let currentSection: string;
-    const children = this._el.nativeElement.children;
-    const scrollTop = event.target.scrollTop;
-    const parentOffset = event.target.offsetTop;
+    const children = this._el.nativeElement.nextSibling.children;
+    const scrollTop = document.scrollingElement.scrollTop;
     for (let i = 0; i < children.length; i++) {
       const element = children[i];
       if (this.spiedTags.some(spiedTag => spiedTag === element.tagName)) {
-        if ((element.offsetTop - parentOffset) <= scrollTop) {
+        if (element.offsetTop <= scrollTop) {
           currentSection = element.id;
         }
       }

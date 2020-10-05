@@ -11,11 +11,13 @@ import { DataCollectorService } from 'src/app/services/data-collector.service';
 export class HomeComponent implements OnInit {
 
   repoList: Observable<Repo[]>;
+  memberList: Observable<any[]>;
 
   constructor(private dcService: DataCollectorService) { }
 
   ngOnInit(): void {
     this.repoList = this.dcService.getOrgRepos();
+    this.memberList = this.dcService.getOrgMembers();
   }
 
   changeRepoDesc(desc: string): string {

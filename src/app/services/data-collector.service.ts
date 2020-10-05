@@ -18,12 +18,12 @@ export class DataCollectorService {
         let lst = res.map(
           (repo: any) => new Repo(repo.id, repo.name, repo.private, repo.html_url, repo.url, repo.description, repo.created_at,
             repo.updated_at, repo.stargazers_count, repo.forks, repo.open_issues));
-        return lst.sort(this.compareFn);
+        return lst.sort(this.compareRepoFn);
       })
     );
   }
 
-  compareFn = (a: Repo, b: Repo) => {
+  compareRepoFn = (a: Repo, b: Repo) => {
     let a_count = a.stargazers_count + a.forks;
     let b_count = b.stargazers_count + b.forks;
     if (a_count < b_count)
@@ -32,5 +32,12 @@ export class DataCollectorService {
       return -1;
     return 0;
   };
+
+  getOrgMembers(): Observable<any[]> {
+    let apiUrl = `https://api.github.com/orgs/FOSS-UCSC/members`;
+    return this.http.get(apiUrl).pipe(
+      map((res: any[]) => res)
+    );
+  }
 
 }

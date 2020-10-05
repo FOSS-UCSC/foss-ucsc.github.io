@@ -21,6 +21,15 @@ section {
   border-bottom: 3px solid #ff5bff70;
 }
 
+.more-users-circle {
+  height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+}
+
 @media only screen and (max-width: 600px) {
   :host {
     margin: 0 16px;

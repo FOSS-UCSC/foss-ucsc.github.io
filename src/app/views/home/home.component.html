@@ -109,54 +109,23 @@
   <div class="spacer"></div>
 
   <!-- Section heading -->
-  <h2 class="h1-responsive font-weight-bold my-3"> Contributors </h2>
+  <h2 class="h1-responsive font-weight-bold my-3"> Members </h2>
   <!-- Section description -->
   <p class="lead grey-text w-responsive mx-auto mb-5">some enthusiastic & passionate university students who wish to
     contribute to the
     open-source software world for the sake of everyone.
   </p>
 
-  <!-- Grid row -->
-  <div class="row">
-
-    <!-- Grid column -->
-    <div class="col-md-4">
-
-      <i class="fas fa-chart-area fa-3x red-text"></i>
-      <h5 class="font-weight-bold my-4">Analytics</h5>
-      <p class="grey-text mb-md-0 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-        maiores aperiam minima assumenda deleniti hic.
-      </p>
-
+  <div class="d-flex justify-content-center flex-wrap">
+    <div class="m-3" *ngFor="let member of memberList | async">
+      <img src="{{member.avatar_url}}" width="100" class="img-fluid z-depth-1 rounded-circle" alt="Responsive image">
     </div>
-    <!-- Grid column -->
-
-    <!-- Grid column -->
-    <div class="col-md-4">
-
-      <i class="fas fa-book fa-3x cyan-text"></i>
-      <h5 class="font-weight-bold my-4">Tutorials</h5>
-      <p class="grey-text mb-md-0 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-        maiores aperiam minima assumenda deleniti hic.
-      </p>
-
+    <div class="m-3">
+      <span width="100" class="more-users-circle">
+        <p class="w-100 h5 text-white mt-2">& More</p>
+      </span>
     </div>
-    <!-- Grid column -->
-
-    <!-- Grid column -->
-    <div class="col-md-4">
-
-      <i class="far fa-comments fa-3x orange-text"></i>
-      <h5 class="font-weight-bold my-4">Support</h5>
-      <p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores
-        aperiam minima assumenda deleniti hic.
-      </p>
-
-    </div>
-    <!-- Grid column -->
-
   </div>
-  <!-- Grid row -->
 
 </section>
 <!-- Section: home -->

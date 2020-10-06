@@ -10,3 +10,7 @@ html,body {
 body::-webkit-scrollbar { /* Chrome, safari, opera */
   display: none;
 }
+
+.spacer {
+  min-height: 8em;
+}

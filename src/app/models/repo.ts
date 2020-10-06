@@ -1,39 +1,17 @@
 export class Repo {
-  id?: number;
-  name?: string;
-  is_private?: boolean;
-  html_url?: string;
-  url?: string;
-  description?: string;
-  created_at?: Date;
-  updated_at?: Date;
-  stargazers_count?: number;
-  forks?: number;
-  open_issues?: number;
+  id?: number = 0;
+  name?: string = null;
+  html_url?: string = null;
+  url?: string = null;
+  branches_url?: string = null;
+  description?: string = null;
+  created_at?: Date = null;
+  updated_at?: Date = null;
+  stargazers_count?: number = 0;
+  forks?: number = 0;
+  open_issues?: number = 0;
 
-  constructor(
-    id?: number,
-    name?: string,
-    is_private?: boolean,
-    html_url?: string,
-    url?: string,
-    description?: string,
-    created_at?: Date,
-    updated_at?: Date,
-    stargazers_count?: number,
-    forks?: number,
-    open_issues?: number
-  ) {
-    this.id = id
-    this.name = name;
-    this.is_private = is_private;
-    this.html_url = html_url;
-    this.url = url;
-    this.description = description;
-    this.created_at = created_at;
-    this.updated_at = updated_at;
-    this.stargazers_count = stargazers_count;
-    this.forks = forks;
-    this.open_issues = open_issues;
+  constructor(opt?: Repo) {
+    Object.assign(this, opt);
   }
 }

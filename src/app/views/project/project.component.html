@@ -1,0 +1,84 @@
+<div class="container full-height" *ngIf="repo$ | async as repo">
+  <!-- spacer -->
+  <div class="row my-5"></div>
+
+  <div class="row" *ngIf="branches$ | async as branches">
+    <!-- markdowns -->
+    <div class="d-none d-md-block col-9 p-0 px-2">
+      <mdb-card>
+        <mdb-card-header class="font-weight-bold">{{markdownType.toUpperCase()}}</mdb-card-header>
+        <mdb-card-body class="px-5">
+          <markdown *ngIf="!markdownLoadingError.isError" emoji
+            src="https://raw.githubusercontent.com/FOSS-UCSC/{{repo.name}}/{{selectedBranch}}/{{markdownType === 'readme'? 'README':(markdownType === 'contribution guidelines'? 'CONTRIBUTING': '')}}.md"
+            (error)="onError($event)">
+          </markdown>
+          <div>
+            <p *ngIf="markdownLoadingError.isError">Something goes wrong. <br>{{markdownLoadingError.msg}}</p>
+          </div>
+        </mdb-card-body>
+      </mdb-card>
+    </div>
+    <!-- basic info -->
+    <div class="col-12 col-md-3 p-0 px-2">
+      <mdb-card class="text-center">
+        <mdb-card-body>
+          <mdb-card-title class="h3 font-weight-bold">
+            {{repo.name}}
+          </mdb-card-title>
+          <mdb-card-text class="mt-4">
+            {{repo.description}}
+          </mdb-card-text>
+          <div class="w-100">
+            <div>
+              <img src="https://img.shields.io/github/stars/FOSS-UCSC/{{repo.name}}.svg?label=Star&color=green"
+                class="mr-1" />
+              <img src="https://img.shields.io/github/forks/FOSS-UCSC/{{repo.name}}.svg?label=Fork&color=blue"
+                class="mx-2" />
+              <img
+                src="https://img.shields.io/github/watchers/FOSS-UCSC/{{repo.name}}.svg?label=Watch&maxAge=2592000&color=orange"
+                class="ml-1" />
+            </div>
+          </div>
+          <div class="mt-3 text-right">
+            <div class="btn-group" mdbDropdown>
+              <button mdbDropdownToggle mdbBtn color="grey" size="sm" outline="true" class="dropdown-toggle waves-light"
+                type="button" mdbWavesEffect>
+                Branches
+              </button>
+              <div class="dropdown-menu py-0">
+                <a *ngFor="let branch of branches"
+                  class="dropdown-item small {{selectedBranch === branch.name ? 'active text-white': ''}}"
+                  (click)="changeBranch(branch.name)">{{branch.name}}</a>
+              </div>
+            </div>
+          </div>
+          <div class="mt-3">
+            <div class="list-group text-left">
+              <a class="list-group-item waves-light {{markdownType === 'readme' ? 'active text-white': ''}}"
+                (click)="setMarkdownType('readme')" mdbWavesEffect>
+                <mdb-icon fas icon="book-open" class="mr-2"></mdb-icon> Readme
+              </a>
+              <a class="list-group-item waves-light {{markdownType === 'contribution guidelines' ? 'active text-white': ''}}"
+                (click)="setMarkdownType('contribution guidelines')" mdbWavesEffect>
+                <mdb-icon fas icon="pencil-ruler" class="mr-2"></mdb-icon> Contribution Guidelines
+              </a>
+            </div>
+            <div class="mt-2">
+              <a mdbBtn href="{{repo.html_url}}" class="waves-light" gradient="peach" size="sm" block="true"
+                mdbWavesEffect>
+                <mdb-icon fab icon="github" class="mr-2"></mdb-icon> View on Github
+              </a>
+            </div>
+          </div>
+        </mdb-card-body>
+      </mdb-card>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="page-footer w-100 font-small grey mt-5">
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="#"> FOSS-UCSC </a>
+  </div>
+</footer>

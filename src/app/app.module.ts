@@ -11,6 +11,7 @@ import { SecurityContext } from '@angular/core';
 import { AlgoContributionComponent } from './views/algo/algo-contribution/algo-contribution.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { ScrollSpyDirective } from './directives/scroll-spy.directive';
+import { ProjectComponent } from './views/project/project.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ScrollSpyDirective } from './directives/scroll-spy.directive';
     AlgoHomeComponent,
     HomeComponent,
     AlgoContributionComponent,
-    ScrollSpyDirective
+    ScrollSpyDirective,
+    ProjectComponent
   ],
   imports: [
     HttpClientModule,

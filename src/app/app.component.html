@@ -36,7 +36,7 @@
   </links>
 </mdb-navbar>
 
-<router-outlet scrollSpy [spiedTags]="['SECTION']" (sectionChange)="onSectionChange($event)"
+<router-outlet scrollSpy [spiedTags]="['SECTION']" (sectionChange)="onSectionChange($event)" (activate)="onActivate($event)"
 style="height:100vh;overflow-y: auto;"></router-outlet>
 
 <!-- Background clouds -->

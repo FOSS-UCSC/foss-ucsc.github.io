@@ -35,4 +35,8 @@ export class AppComponent implements OnInit {
     return this.currentSection === section ? "nav-item active mr-1" : "nav-item mr-1";
   }
 
+  onActivate(event: any): void {
+    window.scroll(0, 0);
+  }
+
 }

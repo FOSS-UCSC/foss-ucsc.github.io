@@ -45,8 +45,10 @@
                 type="button" mdbWavesEffect>
                 Branches
               </button>
-              <div class="dropdown-menu">
-                <a *ngFor="let branch of branches" class="dropdown-item small" (click)="changeBranch(branch.name)">{{branch.name}}</a>
+              <div class="dropdown-menu py-0">
+                <a *ngFor="let branch of branches"
+                  class="dropdown-item small {{selectedBranch === branch.name ? 'active text-white': ''}}"
+                  (click)="changeBranch(branch.name)">{{branch.name}}</a>
               </div>
             </div>
           </div>

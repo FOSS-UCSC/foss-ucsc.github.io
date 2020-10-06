@@ -60,6 +60,10 @@ export class ProjectComponent implements OnInit {
 
   changeBranch(branchName: string) {
     this.selectedBranch = branchName;
+    this.markdownLoadingError = {
+      isError: false,
+      msg: null
+    };
   }
 
 }
